@@ -1,6 +1,6 @@
-.col {
+/*.col {
   border: 1px solid grey;
-}
+}*/
 
 /*CSS RESET*/
 * {
@@ -88,6 +88,7 @@
     min-height: 50vh;
     min-width: 45vh;
   }
+
 /*Navigation Bar*/
 
 header {
@@ -144,3 +145,36 @@ header {
   footer {
     padding: 7%;
   }
+
+  /*Forms*/
+input, textarea {
+  border-style: solid;
+  border: 1px solid grey;
+  padding: 1em;
+  -webkit-appearance: none;
+  font-family: 'raleway dots';
+  font-size: 1em;
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  vertical-align: top;
+}
+
+textarea {
+  min-height: 80%;
+}
+
+input [type="submit"]{
+  width: 5em;
+  display: block;
+  background-color: teal;
+
+}
+
+form .col {
+  padding: 1%;
+}
+
+footer {
+  padding: 7%;
+}
